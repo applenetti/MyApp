@@ -3,8 +3,15 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Index</title>
+<script src="dojo/dojo.js"></script>
 </head>
 <body>
 	<p>Connected to MyApp</p>
+	<h1 id="greeting">Greetings!</h1>
+	<script>
+        dojo.ready(function(){
+        	dojo.byId("greeting").innerHTML = "Welcome to MyApp development";
+        });
+    </script>	
 </body>
 </html>
